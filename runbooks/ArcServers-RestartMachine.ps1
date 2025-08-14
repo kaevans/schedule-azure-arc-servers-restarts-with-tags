@@ -35,11 +35,11 @@ param(
 #################
 
 # Windows Azure ARC Servers - Settings
-$windowsSettings = '{"fileUris": ["https://raw.githubusercontent.com/dawlysd/schedule-azure-arc-servers-restarts-with-tags/main/scripts/azurearcservers-restartwindows.ps1"]}'
+$windowsSettings = '{"fileUris": ["https://raw.githubusercontent.com/kaevans/schedule-azure-arc-servers-restarts-with-tags/main/scripts/azurearcservers-restartwindows.ps1"]}'
 $windowsProtectedSettings = '{"commandToExecute": "powershell -ExecutionPolicy Unrestricted -File azurearcservers-restartwindows.ps1"}'
 
 # Linux Azure ARC Servers - Settings
-$linuxSettings = '{"commandToExecute":"sudo sh azurearcservers-restartlinux.sh", "fileUris": ["https://raw.githubusercontent.com/dawlysd/schedule-azure-arc-servers-restarts-with-tags/main/scripts/azurearcservers-restartlinux.sh"]}'
+$linuxSettings = '{"commandToExecute":"sudo sh azurearcservers-restartlinux.sh", "fileUris": ["https://raw.githubusercontent.com/kaevans/schedule-azure-arc-servers-restarts-with-tags/main/scripts/azurearcservers-restartlinux.sh"]}'
 
 ##########
 # SCRIPT #
